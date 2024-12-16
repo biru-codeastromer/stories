@@ -18,10 +18,10 @@ module.exports = {
             },
         },
         {
-            resolve: 'gatsby-plugin-netlify-cms',
+            resolve: 'gatsby-plugin-decap-cms',
             options: {
-                modulePath: require.resolve('./src/cms/netlify.jsx')
-            }
+                modulePath: require.resolve('./src/cms/cms.js')
+            },
         },
         {
             resolve: 'gatsby-plugin-matomo',
